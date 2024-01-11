@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: golden-container
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: golden-container
+    app.kubernetes.io/part-of: golden-container
+  name: golden-containerjfu2
+spec:
+  port:
+    targetPort: 8080
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: golden-container
+    weight: 100
+status: {}

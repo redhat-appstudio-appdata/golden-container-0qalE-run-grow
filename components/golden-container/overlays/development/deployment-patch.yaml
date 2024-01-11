@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: golden-container
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtap-contract-tenant/golden-container/golden-container@sha256:d04fed4af7fe26e39c1f7c0eef047529a85a6e39b0b4842b53c61266e440f6ca
+        name: container-image
+        resources: {}
+status: {}
