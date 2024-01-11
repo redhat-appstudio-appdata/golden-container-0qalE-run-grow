@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: golden-container
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-contract-tenant/golden-container/golden-container@sha256:9edffc966a5c833ba78a2c7698296c1b7a716ede5656cecbd94cc360846c28ce
+      - image: quay.io/redhat-user-workloads/rhtap-contract-tenant/golden-container/golden-container@sha256:cd22b2340200886ea8c663a395d6cc94e7dca2c28a1c0faefd12214c1bb9346a
         imagePullPolicy: Always
         name: container-image
         ports:
