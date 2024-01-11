@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: golden-container
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: golden-container
+    app.kubernetes.io/part-of: golden-container
+  name: golden-container
+spec:
+  ports:
+  - port: 8080
+    targetPort: 8080
+  selector:
+    app.kubernetes.io/instance: golden-container
+status:
+  loadBalancer: {}
