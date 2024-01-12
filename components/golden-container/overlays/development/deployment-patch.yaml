@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-contract-tenant/golden-container/golden-container@sha256:b9d3285e0a24aefbe95393be5c43787a0f7274f129142f9134078a45b2019608
+      - image: quay.io/redhat-appstudio/ec-golden-image@sha256:4793b3585a2a1d4451316f04adcec1ae4e74f33cee06a8f5898e327847e466ac
         name: container-image
         resources: {}
 status: {}
