@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: golden-container
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/ec-golden-image@sha256:aebcf9f8fc52d6f402198d3b7204b66581aea19f15e63b089f005634ba437e80
+      - image: quay.io/redhat-appstudio/ec-golden-image@sha256:53810d3e9d76d0c33b51427e9856d7f36d7ba376021fd3753667f65a3940b591
         imagePullPolicy: Always
         name: container-image
         ports:
