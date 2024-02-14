@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: golden-container
     app.kubernetes.io/part-of: golden-container
-  name: golden-containerjfu2
+  name: golden-containert2dd
 spec:
   port:
     targetPort: 8080
