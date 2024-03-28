@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/ec-golden-image@sha256:ff029bfed6c9731f0321171ad496261f53b67a7637db0c2bcd483ad8e5684c4c
+      - image: quay.io/redhat-appstudio/ec-golden-image@sha256:38a564eba55c7d2fa29057045ca7fbe91f3c1545ee3a0213c365946e4ef11eae
         name: container-image
         resources: {}
 status: {}
